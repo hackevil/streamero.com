@@ -6,9 +6,7 @@ javascript:strId="streamero_frame";objIFRAME=document.createElement("iframe");ob
 
 function testBookmark() {
 	//alert(window.location);
-
 	strId = "streamero_frame";
-
 	testFrame =
 
 	//remove frame if it exists

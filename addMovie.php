@@ -62,6 +62,8 @@
 </p>
 <p>
   <a class="button" href='javascript:strLoc=String(window.location);if(strLoc.indexOf("https")==0){alert("We have to reload to save this video. Please click the bookmark again when the page reloads.");window.location=strLoc.replace("https","http");}strId="streamero_frame";saveURL="http://streamero.com/bookmarkMovie.php?link="+encodeURIComponent(strLoc);if(document.getElementById(strId)){fframe=document.getElementById(strId);fframe.parentNode.removeChild(fframe);}objIFRAME=document.createElement("iframe");objIFRAME.id=strId;objIFRAME.src=saveURL;document.body.appendChild(objIFRAME);void(0);' >save 2 streamero</a>
-<p>You must be logged into streamero.com for this bookmark to work; although, once you log in, you do not need to keep streamero.com open in your browser (you will stay logged in).
+<p>
+  You must be logged into streamero.com for this bookmark to work; although, once you log in, you do not need to keep streamero.com open in your browser (you will stay logged in).
+</p>
 <?php include "pageBottom.php" ?>
 
