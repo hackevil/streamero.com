@@ -1,0 +1,400 @@
+
+/*
+green 1: #30AD23
+green 2: #75DB1A
+green 3: #1DE71D
+green 4: #9CFF88
+
+light blue: #E6E6FA
+dark blue: #5667f8
+
+
+*/
+
+@font-face {
+    font-family: 'rolling_no_one';
+    src: url('/css/rollingnoone-extrabold-webfont.eot');
+    src: url('/css/rollingnoone-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/css/rollingnoone-extrabold-webfont.woff') format('woff'),
+         url('/css/rollingnoone-extrabold-webfont.ttf') format('truetype'),
+         url('/cssrollingnoone-extrabold-webfont.svg#rolling_no_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tin_doghouse';
+    src: url('tindog-webfont.eot');
+    src: url('tindog-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tindog-webfont.woff') format('woff'),
+         url('tindog-webfont.ttf') format('truetype'),
+         url('tindog-webfont.svg#tin_doghouseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arrow_7regular';
+    src: url('arrow_7.eot');
+    src: url('arrow_7.eot?#iefix') format('embedded-opentype'),
+         url('arrow_7.woff') format('woff'),
+         url('arrow_7.ttf') format('truetype'),
+         url('arrow_7.svg#arrow_7regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background:white;
+	color:black;
+	font-family:verdana, sans-serif;
+	font-size:14px;
+	padding:0px 40px;
+}
+
+
+
+h2 {
+	color:#30AD23;
+	font-family: 'rolling_no_one';
+	font-weight:normal;
+	margin:10px 0px;
+	padding:0px;
+	text-transform:lowercase;
+}
+
+a:visited, a {
+	color:#30AD23;
+}
+
+a:hover {
+	color:#1DE71D;
+}
+
+
+table {
+	border:none;
+}
+
+table td {
+	border:none;
+}
+
+input[type="text"], input[type="password"] {
+	border:1px solid #ccc;
+	border-radius:4px;
+	display:inline-block;
+	margin-bottom:20px;
+}
+
+
+input[type="text"].error, input[type="password"].error {
+	background:lightpink;
+	/*color:#eee;*/
+	padding-left:0px;
+}
+
+.button {
+	background:#5667f8;
+	border:2px solid #9cff88;
+	border-radius:10px;
+	color:white;
+	cursor:pointer;
+	font-family:tin_doghouse, sans-serif;
+	font-size:18px;
+	padding:0px 10px 4px 10px;
+	text-decoration:none;
+}
+
+.small_button {
+	background:transparent;
+	border:2px solid #30AD23;
+	border-radius:10px;
+	color:#30AD23;
+	cursor:pointer;
+	display:inline-block;
+	/*font-family:tin_doghouse, sans-serif;*/
+	font-size:14px;
+	font-weight:normal;
+	padding:0px 6px 2px 6px;
+	text-decoration:none;
+}
+
+.button:hover, .button:visited {
+	color:white;
+}
+
+.small_button:hover, .small_button:visited {
+
+}
+
+.black_button {
+	background:black;
+	border:2px solid white;
+	border-radius:10px;
+	color:white;
+	cursor:pointer;
+	font-family:tin_doghouse, sans-serif;
+	font-size:16px;
+	padding:0px 8px 4px 8px;
+	text-decoration:none;
+}
+
+.black_button_activated {
+	border:2px solid #aaa;
+	color:#aaa;
+}
+
+
+.longtext {
+	width:800px;
+}
+
+.midtext {
+	width:500px;
+}
+
+.shorttext {
+	width:200px;
+}
+
+textarea.midtext {
+	height:100px;
+}
+
+.error {
+	color:red;
+	padding:0px 0px 20px 10px;
+}
+
+
+.rolling {
+	font-family:rolling_no_one, sans-serif;
+}
+
+.tindog {
+	font-family:tin_doghouse, sans-serif;
+}
+.arrow {
+	font-family:arrow_7regular !important;
+}
+
+
+
+
+
+
+.green1 {
+	color:#30AD23;
+}
+
+.green2 {
+	color:#75DB1A;
+}
+
+.green3 {
+	color:#1DE71D;
+}
+
+.green4 {
+	color:#9CFF88;
+}
+
+
+body.watch_page
+{
+	background:black;
+	color:white;
+	padding:0px;
+}
+
+table.field_table td {
+	padding:0px 20px 0px 0px;
+}
+
+.home_logo {
+	color:#30ad23;
+	font-size:72px;
+	margin:0px 0px -10px 0px;
+	padding:0px;
+}
+
+.home_logo a {
+	text-decoration:none;
+}
+
+#main_menu {
+	font-family:tindog;
+	font-size:26px;
+	padding:0px 0px 0px 40px;
+}
+
+#main_menu a {
+	color:#30ad23;
+	margin-right:20px;
+	text-decoration:none;
+}
+
+#main_menu a:hover {
+	color:#1de71d;
+}
+
+.logo_0 {
+	color:#30ad23;
+}
+
+.logo_1 {
+	color:#75db1b;
+}
+
+.logo_2 {
+	color:#1de71d;
+}
+
+.logo_3 {
+	color:#9cff88;
+}
+
+body.watch_page .home_logo, body.watch_page #main_menu {
+	display:none;
+}
+
+#watch_menu {
+	background:black;
+	color:white;
+	height:10px;
+	left:0px;
+	padding:0px 0px 0px 0px;
+	overflow:hidden;
+	position:absolute;
+	text-align:center;
+	top:0px;
+	width:100%;
+	z-index:10;
+}
+
+#watch_menu a:visited {
+	color:white;
+}
+
+#watch_menu a:hover {
+	color:#ccc;
+}
+
+#watch_menu #indicator {
+	cursor:pointer;
+	margin-top:-5px;
+	position:top center;
+	text-align:center;
+}
+
+#watch_menu .spacer {
+	margin:0px 20px 0px 0px;
+}
+
+#watch_menu span {
+	color:black;
+}
+
+#watch_menu_items {
+	display:none;
+}
+
+#watch_menu_spinner {
+	background:url(../images/watch_spinner_58.gif) top center no-repeat;
+	height:66px;
+	width:100%;
+}
+
+.big_bubble {
+	background:white;
+	border:5px solid #30AD23;
+	border-radius:25px;
+	color:black;
+	margin:20px 0px 0px 0px;
+	padding:20px 20px 40px 20px;
+	width:1000px;
+}
+
+.movie_list {
+	margin:0px;
+	padding:0px;
+}
+
+.movie_block {
+	background:lavender;
+	border:1px solid #30AD23;
+	border-radius:5px;
+	display:block;
+	margin:10px 0px;
+	padding:5px 5px;
+}
+
+.movie_block.muted {
+	background:#ddd;
+}
+
+.mute_link {
+	display:none;
+}
+
+.movie_block.muted .mute_link {
+	display:inline;
+}
+
+.watch_links {
+	display:inline;
+}
+
+.movie_block.muted .watch_links {
+	display:none;
+}
+
+.movie_block .funcs {
+	float:right;
+	padding:0px 0px 0px 20px;
+}
+
+.movie_block .funcs a {
+	margin:0px 10px 0px 0px;
+}
+
+.movie_block .funcs a.movie_arrow {
+	display:block;
+	font-family:arrow_7regular !important;
+	float:right;
+	margin:5px 10px 0px 0px;
+	padding:0px 0px 0px 20px;
+
+}
+.movie_block .funcs a.movie_arrow_rev {
+	display:block;
+	font-family:arrow_7regular !important;
+	float:right;
+	margin:5px 5px 0px 0px;
+	padding:0px 0px 0px 0px;
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg); /* Safari and Chrome */
+}
+
+#watch_title {
+	margin:0px 0px 10px 0px;
+}
+
+.movie_title {
+	display:block;
+	float:left;
+	margin:2px 0px 0px 0px;
+}
+
+.arrow_handle {
+	cursor:pointer;
+	display:block;
+	float:left;
+	font-family:arrow_7regular !important;
+	margin:8px 10px 0px 4px;
+}
